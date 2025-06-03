@@ -1,6 +1,7 @@
 package kr.ac.hansung.cse.hellospringdatajpa.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.PositiveOrZero;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -20,6 +21,8 @@ public class Product {
     private String name;
     private String brand;
     private String madeIn;
+
+    @PositiveOrZero(message = "가격은 0 이상이어야 합니다.")
     private double price;
 
     public Product(String name, String brand, String madeIn, double price) {

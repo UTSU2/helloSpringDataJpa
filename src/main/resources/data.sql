@@ -1,4 +1,4 @@
-insert into product (name, brand, made_in, price) values ('Galaxy S6', 'Samsung Corp', 'Korea', 600.0);
+/*insert into product (name, brand, made_in, price) values ('Galaxy S6', 'Samsung Corp', 'Korea', 600.0);
 insert into product (name, brand, made_in, price) values ('Galaxy S8', 'Samsung Corp', 'Korea', 800.0);
 insert into product (name, brand, made_in, price) values ('Galaxy S10', 'Samsung Corp', 'Korea', 1000.0);
 insert into product (name, brand, made_in, price) values ('Galaxy S21', 'Samsung Corp', 'Korea', 1000.0);
@@ -23,4 +23,4 @@ insert into product (name, brand, made_in, price) values ('Accord', 'Honda', 'Ja
 insert into product (name, brand, made_in, price) values ('sienna', 'Honda', 'Japan',  40000);
 
 insert into product (name, brand, made_in, price) values ('Camry', 'Toyota', 'Japan',  25000);
-insert into product (name, brand, made_in, price) values ('Lexus', 'Toyota', 'Japan',  50000);
+insert into product (name, brand, made_in, price) values ('Lexus', 'Toyota', 'Japan',  50000);*/
